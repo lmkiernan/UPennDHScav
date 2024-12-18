@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C7B17442CE4069C00429F17 /* ScavViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B17432CE4069C00429F17 /* ScavViewModel.swift */; };
+		0C7B17462CE406A000429F17 /* DiningHall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B17452CE406A000429F17 /* DiningHall.swift */; };
+		0C7B17482CE406A300429F17 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B17472CE406A300429F17 /* GameState.swift */; };
+		0C7B174A2CE406A900429F17 /* DiningHallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B17492CE406A900429F17 /* DiningHallView.swift */; };
+		0C7B174C2CE406AB00429F17 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7B174B2CE406AB00429F17 /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C7B17182CE4062000429F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7B16FF2CE4061E00429F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7B17062CE4061E00429F17;
+			remoteInfo = "Scav Hunt";
+		};
+		0C7B17222CE4062000429F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7B16FF2CE4061E00429F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C7B17062CE4061E00429F17;
+			remoteInfo = "Scav Hunt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C7B17072CE4061E00429F17 /* Scav Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scav Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7B17172CE4062000429F17 /* Scav HuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scav HuntTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7B17212CE4062000429F17 /* Scav HuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scav HuntUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7B17432CE4069C00429F17 /* ScavViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScavViewModel.swift; sourceTree = "<group>"; };
+		0C7B17452CE406A000429F17 /* DiningHall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHall.swift; sourceTree = "<group>"; };
+		0C7B17472CE406A300429F17 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		0C7B17492CE406A900429F17 /* DiningHallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningHallView.swift; sourceTree = "<group>"; };
+		0C7B174B2CE406AB00429F17 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0C7B17092CE4061E00429F17 /* Scav Hunt */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Scav Hunt";
+			sourceTree = "<group>";
+		};
+		0C7B171A2CE4062000429F17 /* Scav HuntTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Scav HuntTests";
+			sourceTree = "<group>";
+		};
+		0C7B17242CE4062000429F17 /* Scav HuntUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Scav HuntUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C7B17042CE4061E00429F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7B17142CE4062000429F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7B171E2CE4062000429F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C7B16FE2CE4061E00429F17 = {
+			isa = PBXGroup;
+			children = (
+				0C7B17092CE4061E00429F17 /* Scav Hunt */,
+				0C7B171A2CE4062000429F17 /* Scav HuntTests */,
+				0C7B17242CE4062000429F17 /* Scav HuntUITests */,
+				0C7B17082CE4061E00429F17 /* Products */,
+				0C7B17432CE4069C00429F17 /* ScavViewModel.swift */,
+				0C7B17452CE406A000429F17 /* DiningHall.swift */,
+				0C7B17472CE406A300429F17 /* GameState.swift */,
+				0C7B17492CE406A900429F17 /* DiningHallView.swift */,
+				0C7B174B2CE406AB00429F17 /* HomeView.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		0C7B17082CE4061E00429F17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C7B17072CE4061E00429F17 /* Scav Hunt.app */,
+				0C7B17172CE4062000429F17 /* Scav HuntTests.xctest */,
+				0C7B17212CE4062000429F17 /* Scav HuntUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C7B17062CE4061E00429F17 /* Scav Hunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7B172B2CE4062000429F17 /* Build configuration list for PBXNativeTarget "Scav Hunt" */;
+			buildPhases = (
+				0C7B17032CE4061E00429F17 /* Sources */,
+				0C7B17042CE4061E00429F17 /* Frameworks */,
+				0C7B17052CE4061E00429F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0C7B17092CE4061E00429F17 /* Scav Hunt */,
+			);
+			name = "Scav Hunt";
+			packageProductDependencies = (
+			);
+			productName = "Scav Hunt";
+			productReference = 0C7B17072CE4061E00429F17 /* Scav Hunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C7B17162CE4062000429F17 /* Scav HuntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7B172E2CE4062000429F17 /* Build configuration list for PBXNativeTarget "Scav HuntTests" */;
+			buildPhases = (
+				0C7B17132CE4062000429F17 /* Sources */,
+				0C7B17142CE4062000429F17 /* Frameworks */,
+				0C7B17152CE4062000429F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C7B17192CE4062000429F17 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0C7B171A2CE4062000429F17 /* Scav HuntTests */,
+			);
+			name = "Scav HuntTests";
+			packageProductDependencies = (
+			);
+			productName = "Scav HuntTests";
+			productReference = 0C7B17172CE4062000429F17 /* Scav HuntTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C7B17202CE4062000429F17 /* Scav HuntUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7B17312CE4062000429F17 /* Build configuration list for PBXNativeTarget "Scav HuntUITests" */;
+			buildPhases = (
+				0C7B171D2CE4062000429F17 /* Sources */,
+				0C7B171E2CE4062000429F17 /* Frameworks */,
+				0C7B171F2CE4062000429F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C7B17232CE4062000429F17 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0C7B17242CE4062000429F17 /* Scav HuntUITests */,
+			);
+			name = "Scav HuntUITests";
+			packageProductDependencies = (
+			);
+			productName = "Scav HuntUITests";
+			productReference = 0C7B17212CE4062000429F17 /* Scav HuntUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C7B16FF2CE4061E00429F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					0C7B17062CE4061E00429F17 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					0C7B17162CE4062000429F17 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 0C7B17062CE4061E00429F17;
+					};
+					0C7B17202CE4062000429F17 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 0C7B17062CE4061E00429F17;
+					};
+				};
+			};
+			buildConfigurationList = 0C7B17022CE4061E00429F17 /* Build configuration list for PBXProject "Scav Hunt" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C7B16FE2CE4061E00429F17;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0C7B17082CE4061E00429F17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C7B17062CE4061E00429F17 /* Scav Hunt */,
+				0C7B17162CE4062000429F17 /* Scav HuntTests */,
+				0C7B17202CE4062000429F17 /* Scav HuntUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C7B17052CE4061E00429F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7B17152CE4062000429F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7B171F2CE4062000429F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C7B17032CE4061E00429F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7B174A2CE406A900429F17 /* DiningHallView.swift in Sources */,
+				0C7B174C2CE406AB00429F17 /* HomeView.swift in Sources */,
+				0C7B17442CE4069C00429F17 /* ScavViewModel.swift in Sources */,
+				0C7B17462CE406A000429F17 /* DiningHall.swift in Sources */,
+				0C7B17482CE406A300429F17 /* GameState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7B17132CE4062000429F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7B171D2CE4062000429F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C7B17192CE4062000429F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C7B17062CE4061E00429F17 /* Scav Hunt */;
+			targetProxy = 0C7B17182CE4062000429F17 /* PBXContainerItemProxy */;
+		};
+		0C7B17232CE4062000429F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C7B17062CE4061E00429F17 /* Scav Hunt */;
+			targetProxy = 0C7B17222CE4062000429F17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C7B17292CE4062000429F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C7B172A2CE4062000429F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C7B172C2CE4062000429F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scav Hunt/Preview Content\"";
+				DEVELOPMENT_TEAM = CT7C37LZR3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to check your proximity to a dining hall";
+				INFOPLIST_KEY_NSMotionUsageDescription = "We use your motion to determine when your phone shakes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kishefoiqehjrf.Scav-Hunt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C7B172D2CE4062000429F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scav Hunt/Preview Content\"";
+				DEVELOPMENT_TEAM = CT7C37LZR3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to check your proximity to a dining hall";
+				INFOPLIST_KEY_NSMotionUsageDescription = "We use your motion to determine when your phone shakes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kishefoiqehjrf.Scav-Hunt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C7B172F2CE4062000429F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kishefoiqehjrf.Scav-HuntTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scav Hunt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scav Hunt";
+			};
+			name = Debug;
+		};
+		0C7B17302CE4062000429F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kishefoiqehjrf.Scav-HuntTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scav Hunt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scav Hunt";
+			};
+			name = Release;
+		};
+		0C7B17322CE4062000429F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kishefoiqehjrf.Scav-HuntUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Scav Hunt";
+			};
+			name = Debug;
+		};
+		0C7B17332CE4062000429F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kishefoiqehjrf.Scav-HuntUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Scav Hunt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C7B17022CE4061E00429F17 /* Build configuration list for PBXProject "Scav Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7B17292CE4062000429F17 /* Debug */,
+				0C7B172A2CE4062000429F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C7B172B2CE4062000429F17 /* Build configuration list for PBXNativeTarget "Scav Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7B172C2CE4062000429F17 /* Debug */,
+				0C7B172D2CE4062000429F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C7B172E2CE4062000429F17 /* Build configuration list for PBXNativeTarget "Scav HuntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7B172F2CE4062000429F17 /* Debug */,
+				0C7B17302CE4062000429F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C7B17312CE4062000429F17 /* Build configuration list for PBXNativeTarget "Scav HuntUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7B17322CE4062000429F17 /* Debug */,
+				0C7B17332CE4062000429F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C7B16FF2CE4061E00429F17 /* Project object */;
+}
